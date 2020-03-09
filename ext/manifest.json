@@ -1,0 +1,14 @@
+{
+  "name": "Beautiful New Tab",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Get beautiful images with quotes whenever you open a new tab with Mobio Solutions.",
+  "homepage_url": "https://favqs.com/",
+  "icons": {
+    "8": "icons/icon8.png"
+  },
+  "default_locale": "en",
+  "chrome_url_overrides": {
+    "newtab": "src/override/override.html"
+  }
+}
